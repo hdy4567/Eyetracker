@@ -1,0 +1,17 @@
+[Library]
+[Temp]
+[Obj]
+[Logs]
+[MemoryCaptures]
+[Build]
+[Builds]
+[UserSettings]
+[bin]
+[obj]
+*.csproj
+*.sln
+*.userprefs
+*.unitypackage
+.DS_Store
+Thumbs.db
+Desktop.ini

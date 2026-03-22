@@ -1,0 +1,95 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-hdy40 doesn't exist
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-20T10:16:32Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 31200)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
+-batchmode
+-quit
+-executeMethod
+EyeTracker.Editor.BuildScript.PerformBuild
+-projectPath
+h:\내 드라이브\CStest\Eyetracker
+-logFile
+h:\내 드라이브\CStest\Eyetracker\final_build_log.txt
+Successfully changed project path to: h:\내 드라이브\CStest\Eyetracker
+H:/내 드라이브/CStest/Eyetracker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [31316]  Target information:
+
+Player connection [31316]  * "[IP] 172.19.176.1 [Port] 55504 [Flags] 2 [Guid] 1012298958 [EditorId] 1012298958 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJI3T4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31316]  * "[IP] 192.168.0.247 [Port] 55504 [Flags] 2 [Guid] 1012298958 [EditorId] 1012298958 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8GJI3T4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-15020" after 0.7 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hdy40" at "2026-03-20T10:16:34.0089191Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              05fc52ba178d4240b2d1c62c1eb256be
+  Correlation Id:          ed4495e0ddbe718b2995537c5abedbbd
+  External correlation Id: 7152865545466695895
+  Machine Id:              bKM+aFVqsSdeh+S3/GBS92uQYZ8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hdy40" (connect: 1.30s, validation: 0.07s, handshake: 0.27s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hdy40-notifications" at "2026-03-20T10:16:34.3441059Z"
+[Licensing::Module] Connected to LicensingClient (PId: 31200, launch time: 0.02, total connection time: 1.63s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568649884728-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.70s
+[Licensing::Module] Licensing is initialized (took 0.53s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Exiting because Library/SourceAssetDB is corrupted. Relaunch Editor without batch mode to view additional options.
+Exiting without the bug reporter. Application will terminate with return code 0
